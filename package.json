@@ -1,0 +1,51 @@
+{
+  "name": "eslint-plugin-hpe-design-system",
+  "version": "0.0.0",
+  "description": "ESLint rules for the HPE Design System.",
+  "authors": [
+    "Taylor Seamans",
+    "Matt Glissmann",
+    "Jessica Filben"
+  ],
+  "main": "lib/index.js",
+  "bugs": "https://github.com/grommet/eslint-plugin-hpe-design-system/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grommet/eslint-plugin-hpe-design-system.git"
+  },
+  "scripts": {
+    "lint-fix": "eslint lib --fix",
+    "prettier": "pretty-quick --staged",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/eslint-parser": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "eslint": "^8.45.0",
+    "eslint-plugin-eslint-plugin": "^5.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^7.2.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "pre-commit": [
+    "lint-fix",
+    "prettier"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "hpe",
+    "grommet"
+  ]
+}
