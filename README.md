@@ -1,6 +1,6 @@
 # eslint-plugin-hpe-design-system
 
-ESLint rules for the HPE Design System
+ESLint rules for the HPE Design System. This project is in an early alpha phase.
 
 ## Installation
 
