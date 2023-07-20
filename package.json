@@ -14,6 +14,7 @@
     "url": "https://github.com/grommet/eslint-plugin-hpe-design-system.git"
   },
   "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r lib/ dist/lib && cp LICENSE README.md package.json dist/",
     "lint-fix": "eslint lib --fix",
     "prettier": "pretty-quick --staged",
     "test": "mocha tests --recursive"
