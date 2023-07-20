@@ -1,0 +1,33 @@
+name: \U0001F41B Bug report
+description: Report a bug for eslint-plugin-hpe-design-system
+title: 'Bug: <insert title>'
+labels: [bug]
+body:
+  - type: input
+    attributes:
+      label: What rule(s) is this bug related to?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Current behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to reproduce
+      description: Please include a code snippet that will reproduce the issue or a link to a CodeSandbox.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: What version of eslint-plugin-hpe-design-system are you using?
+    validations:
+      required: true

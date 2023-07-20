@@ -1,0 +1,25 @@
+name: \U0001F680 New rule proposal
+description: Propose a new rule to be added to eslint-plugin-hpe-design-system
+title: 'Enhancement: <insert title>'
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: What should this rule do?
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: What category of rule is this?
+      multiple: false
+      options:
+        - Warns about a potential error (problem)
+        - Suggests an alternate way of doing something (suggestion)
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Provide 2-3 code examples that would be flagged by this rule.
+    validations:
+      required: true
