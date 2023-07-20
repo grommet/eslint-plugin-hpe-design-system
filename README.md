@@ -7,10 +7,18 @@ ESLint rules for the HPE Design System. This project is in an early alpha phase.
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
+$ yarn add --dev eslint
+```
+
+```
 $ npm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-hpe-design-system`:
+
+```
+$ yarn add --dev eslint-plugin-hpe-design-system
+```
 
 ```
 $ npm install eslint-plugin-hpe-design-system --save-dev
