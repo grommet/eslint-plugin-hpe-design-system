@@ -26,16 +26,22 @@ Add `hpe-design-system` to the plugins section of your `.eslintrc` configuration
 }
 ```
 
-Then configure the rules you want to use under the rules section.
+It is not recommended to turn off rules. This may result in missed inline suggestions for HPE Design System best practices. If you are facing issues with a rule, please [file an issue](https://github.com/grommet/eslint-plugin-hpe-design-system/issues) so we can fix or enhance it.
 
-```json
-{
-  "rules": {
-    "hpe-design-system/rule-name": 2
-  }
+## Testing unreleased features in your application
+
+The `stable` branch is updated everytime a CircleCI build passes on `main` branch. To test out any features that are not yet part of an official release, adjust your package.json to point to the `stable` branch. The `stable` branch is not recommended for use in production.
+
+```
+"devDependencies": {
+   ...
+   "eslint-plugin-hpe-design-system": "https://github.com/grommet/eslint-plugin-hpe-design-system/tarball/stable",
+   ...
 }
 ```
 
+For more details, read about [how to use stable branch](https://github.com/grommet/grommet/wiki/What-is-grommet-stable-and-how-to-use-it%3F).
+
 ## Supported Rules
 
-- Fill in provided rules here
+Rules coming soon.
