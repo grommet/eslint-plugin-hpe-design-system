@@ -5,7 +5,8 @@
   "authors": [
     "Taylor Seamans",
     "Matt Glissmann",
-    "Jessica Filben"
+    "Jessica Filben",
+    "Mike Kingdom"
   ],
   "main": "lib/index.js",
   "bugs": "https://github.com/grommet/eslint-plugin-hpe-design-system/issues",
